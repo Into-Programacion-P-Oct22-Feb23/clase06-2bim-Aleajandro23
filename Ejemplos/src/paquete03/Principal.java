@@ -29,6 +29,16 @@ public class Principal {
                 valorA,
                 valorB,
                 multi);
+        
+        /* System.out.printf("La suma de %d + %d es igual a: %d\n" 
+        + "La multiplicacion de %d + %d es igual a: %d\n",
+                valorA,
+                valorB,
+                suma,
+                valorA,
+                valorB,
+                multi);
+        */ 
     }
 }
 // crear un paquete 05
