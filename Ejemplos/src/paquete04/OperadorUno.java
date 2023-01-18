@@ -13,7 +13,7 @@ import java.security.SecureRandom;
  */
 public class OperadorUno {
     
-    public static int obtenerNumero(int limite) {
+    public static int obtenerNumero(int limite) { // C UANDO SON ESTATICOS SE LO PUEDE LLAMAR ALWAYS
         // objeto generador de números aleatorios
         SecureRandom numerosAleatorios = new SecureRandom();
         

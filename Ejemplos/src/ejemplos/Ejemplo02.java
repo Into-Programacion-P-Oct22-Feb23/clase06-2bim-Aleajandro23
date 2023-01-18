@@ -30,8 +30,15 @@ public class Ejemplo02 {
                 valorB,
                 suma);
             
+        } else {
+            if (limite < 0) {
+                System.out.println("_______");
+                System.out.println(" ERROR ");
+                System.out.println("~~~~~~~~");
+            }
+            
         }
-        System.out.println("Erro");
+        
        
     }
     
