@@ -5,8 +5,8 @@
  */
 package ejemplos;
 
-import java.security.SecureRandom;
-// import java.security.*;
+ import java.security.SecureRandom;
+// import java.security.*;  // <--- importa todas las clases
 
 /**
  *
@@ -23,6 +23,8 @@ public class Ejemplo01 {
                 valorA,
                 valorB,
                 suma);
+        
+        
     }
     
     public static int obtenerNumero() {
@@ -31,7 +33,7 @@ public class Ejemplo01 {
         
         // Returns a pseudorandom, uniformly distributed int value 
         // between 0 (inclusive) and the specified value (exclusive)
-        int valorAleatorio = numerosAleatorios.nextInt(5);
+        int valorAleatorio = numerosAleatorios.nextInt(5); // cuantos quieres de 0 < 5
         return valorAleatorio;
     }
     
@@ -40,3 +42,8 @@ public class Ejemplo01 {
     }
     
 }
+
+
+// pro tip: solo importar la clase que queramos 
+// porque static? porque si no fuera static tendria que crear un objeto
+// -a
